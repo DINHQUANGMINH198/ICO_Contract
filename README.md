@@ -12,5 +12,5 @@ Deposit Token -> ICO contract
 user trúng ICO được add vào whitelist
 kết thúc add user ICO openWhitelistSale
 user->approve(BUSD)-> ICO contract -> deposit BUSD
-unlock claim -> user wait each phase to claim token 
+unlock claim -> user wait each phase to claim token  
 Hết đợt nếu còn dư token withdraw từ contract về ví

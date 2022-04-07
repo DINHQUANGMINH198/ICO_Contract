@@ -27,7 +27,7 @@ contract GLXWhitelist is Ownable {
     uint256 maxBuyPerUser = 150*10**18;  // 150 BUSD
     uint256 poolAmount = 50000000*10**18; // 50 millions GLX
     uint256 rate = 2; // Whitelist price 0.002 BUSD = 1 GLX
-    // 10 minutes after listing, user can claim part of their tokens
+    // 10 minutes after listing, user can claim part of their tokens call unlockclaim()  
     uint256 tgeUnlockTime;
     // Unlock partly every 30 days
     // uint256 unlockTimeLock = 30 days;
